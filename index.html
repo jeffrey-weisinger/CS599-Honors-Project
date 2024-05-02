@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>My first three.js app</title>
+		<style>
+			body { margin: 0; }
+		</style>
+	</head>
+	<body>
+		<script type="module" src="/index.js"></script>
+		<input type="checkbox" id="textures">
+		<label for="textures"
+			   style="		
+			   font-weight: bold;
+			   font-family:arial;"
+		>Textures (Will Restart Scene)</label>
+		<div
+			id="restart" 
+			style="
+			text-align: center;
+			display: none; 
+			justify-content: center;
+		">
+
+		<div style="
+		margin-right: 50%;
+		margin-left: 50%;
+		display: flex;
+		width: 500px;	
+		position: absolute; 
+		justify-content: center;
+		flex-direction: column;
+		border: 2px solid black; 
+		font-size: 36px; 
+		font-weight: bold;
+		font-family:arial;
+		background-color: black;
+		color: white;
+		">You Collided! <br><button
+		style="
+		/* border: 2px solid black;  */
+		font-weight: bold;
+		
+		font-size: 36px; 
+		font-family:arial;
+		"
+		>Click to Restart</button></div>
+	</div>
+	</body>
+</html>
